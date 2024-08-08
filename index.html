@@ -1,0 +1,543 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smile Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+      'comfortaa': ["Comfortaa"],
+      
+    },
+        container: {
+          padding: {
+            center: true,
+            DEFAULT: "10px",
+            sm: "20px",
+            lg: "30px",
+
+            xl: "45px",
+            "2xl": "75px",
+          },
+
+            extend: {
+              colors: {
+                my: "#0DC4BA",
+              },
+            },
+          },
+        },
+      }
+    
+  </script>
+</head>
+
+<body class="font-sans font-Comfortaa justify-center lg justify-normal">
+  <header class="container flex flex-row justify-between items-center py-1 bg-white fixed z-50 w-[1550px]">
+    <img width="140" class="sm:w-[200px] " src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/main_logo.svg"
+      alt="" />
+    <div class="flex flex-row items-center gap-4">
+      <i class="fa-solid fa-phone text-[#0DC4BA] text-[25px] lg:hidden flex"></i>
+
+      <i class="fa-solid fa-bars text-[#0DC4BA] text-[30px] lg:hidden flex"></i>
+    </div>
+    <ul class="hidden lg:flex flex-row gap-7 pr-[100px] items-center font-comfortaa">
+      <li class="text-[#0DC4BA] ">Главная</li>
+      <li>О нас</li>
+      <li>Цены</li>
+      <li>Услуги</li>
+      <li ><a href="/шт/index.html"  rel="noopener noreferrer">Контакты</a></li>
+      
+      <i class="fa-solid fa-moon text-[#0DC4BA] text-[20px] bg-transparent"></i>
+      <select name="" id=""
+        class="flex flex-row gap-4 items-center text-[18px] text-[#0DC4BA] py-1 px-2 border border-[#0DC4BA]">
+        <option value="en">ru</option>
+      </select>
+    </ul>
+    <button class="hidden lg:flex py-2 px-6 bg-[#0DC4BA] text-white rounded-[8px] font-comfortaa">
+      tel:+998998768855
+    </button>
+  </header>
+  <main>
+    <section
+      class="container bg-transparent justify-center items-center text-center  lg:bg-[url('https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/hero_transparent.png?updatedAt=1718368451630')] lg:bg-transparent h-[790px] bg-cover bg-center py-[100px] flex lg:justify-start lg:items-center">
+      <div
+        class="flex flex-col gap-8 text-center items-center max-[680px]:pl-0 pl-[60px] justify-center lg:text-start lg:items-start lg:justify-start md:pl-0">
+        <h1 class="text-[40px] leading-[40px] sm:text-[60px] sm:leading-[60px] font-comfortaa">
+          Профессиональная <br />
+          стоматология
+        </h1>
+        <p class="leading-6 font-comfortaa">
+          Пациенты рекомендуют нас, потому что довольны <br />
+          результатами лечения. Мы стремимся предоставлять <br />
+          нашим пациентам услуги наивысшего качества.
+        </p>
+        <button
+          class="font-comfortaa px-1 z-10 py-2 bg-[#0DC4BA] rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-purple-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[300px]">
+          Записать на консультацию
+        </button>
+        <div class="flex flex-row gap-9 items-center lg:items-start flex-wrap justify-center text-center">
+
+
+<div class="flex flex-col gap-1 text-start font-comfortaa">
+            <h1 class="text-[40px]">770+</h1>
+            <p>Счастлявые Пациенты</p>
+          </div>
+          <div class="flex flex-col gap-1 text-start font-comfortaa">
+            <h1 class="text-[40px]">1.200+</h1>
+            <p>Вылеченные зубы</p>
+          </div>
+          <div class="flex flex-col gap-1 text-start font-comfortaa">
+            <h1 class="text-[40px]">10+</h1>
+            <p>Специалисты</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container py-[100px]">
+      <div class="flex flex-col gap-2 text-center">
+        <p class="text-[#0DC4BA] text-[18px] font-comfortaa">Полный список наших услуг</p>
+        <h1 class="text-[50px] font-comfortaa">Стоматология в Ташкенте</h1>
+      </div>
+      <div class="flex flex-wrap gap-[40px] items-center justify-center">
+        <div
+          class="cursor-pointer text-start bg-primary text-secondary shadow-md shadow-[#0DC4BA] group overflow-hidden p-5 duration-500 relative w-80 h-80 rounded-xl">
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 -top-12 -left-12 absolute shadow-blue shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-44 left-14 absolute shadow-[#0D4BA] shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-left"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-2 right-2 absolute shadow-violet shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-12 h-12 aos-init aos-animate">
+          </div>
+          <div class="w-full h-full shadow-md shadow-secondary/20 p-3 rounded-xl flex-col gap-5 flex justify-center font-comfortaa">
+            <div class="bg-[#0DC4BA] size-16 p-3 flex items-center justify-center rounded-full">
+              <img src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/veneers_8iCngdA5M" alt="Виниры" />
+            </div>
+            <span class="font-bold text-xl italic font-comfortaa">Виниры</span>
+            <p class="font-comfortaa">Виниры для зубов — это тонкие, изготовленные на заказ...</p>
+            <a class="z-40 underline text-[#0DC4BA]" href="/services/veneers">Подробнее</a>
+          </div>
+        </div>
+        <div
+          class="cursor-pointer text-start bg-primary text-secondary shadow-md shadow-[#0DC4BA] group overflow-hidden p-5 duration-500 relative w-80 h-80 rounded-xl">
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 -top-12 -left-12 absolute shadow-blue shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-44 left-14 absolute shadow-[#0D4BA] shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-left"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-2 right-2 absolute shadow-violet shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-12 h-12 aos-init aos-animate">
+          </div>
+          <div class="w-full h-full shadow-md shadow-secondary/20 p-3 rounded-xl flex-col gap-5 flex justify-center font-comfortaa">
+            <div class="bg-[#0DC4BA] size-16 p-3 flex items-center justify-center rounded-full">
+              <img src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/veneers_8iCngdA5M" alt="Виниры" />
+            </div>
+            <span class="font-bold text-xl italic">Виниры</span>
+            <p>Виниры для зубов — это тонкие, изготовленные на заказ...</p>
+            <a class="z-40 underline text-[#0DC4BA]" href="/services/veneers">Подробнее</a>
+          </div>
+        </div>
+
+
+<div
+          class="cursor-pointer text-start bg-primary text-secondary shadow-md shadow-[#0DC4BA] group overflow-hidden p-5 duration-500 relative w-80 h-80 rounded-xl">
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 -top-12 -left-12 absolute shadow-blue shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-44 left-14 absolute shadow-[#0D4BA] shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-left"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-2 right-2 absolute shadow-violet shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-12 h-12 aos-init aos-animate">
+          </div>
+          <div class="w-full h-full shadow-md shadow-secondary/20 p-3 rounded-xl flex-col gap-5 flex justify-center font-comfortaa">
+            <div class="bg-[#0DC4BA] size-16 p-3 flex items-center justify-center rounded-full">
+              <img src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/veneers_8iCngdA5M" alt="Виниры" />
+            </div>
+            <span class="font-bold text-xl italic">Виниры</span>
+            <p>Виниры для зубов — это тонкие, изготовленные на заказ...</p>
+            <a class="z-40 underline text-[#0DC4BA]" href="/services/veneers">Подробнее</a>
+          </div>
+        </div>
+        <div
+          class="cursor-pointer text-start bg-primary text-secondary shadow-md shadow-[#0DC4BA] group overflow-hidden p-5 duration-500 relative w-80 h-80 rounded-xl">
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 -top-12 -left-12 absolute shadow-blue shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-44 left-14 absolute shadow-[#0D4BA] shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-left"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-2 right-2 absolute shadow-violet shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-12 h-12 aos-init aos-animate">
+          </div>
+          <div class="w-full h-full shadow-md shadow-secondary/20 p-3 rounded-xl flex-col gap-5 flex justify-center font-comfortaa">
+            <div class="bg-[#0DC4BA] size-16 p-3 flex items-center justify-center rounded-full">
+              <img src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/veneers_8iCngdA5M" alt="Виниры" />
+            </div>
+            <span class="font-bold text-xl italic">Виниры</span>
+            <p>Виниры для зубов — это тонкие, изготовленные на заказ...</p>
+            <a class="z-40 underline text-[#0DC4BA]" href="/services/veneers">Подробнее</a>
+          </div>
+        </div>
+        <div
+          class="cursor-pointer text-start bg-primary text-secondary shadow-md shadow-[#0DC4BA] group overflow-hidden p-5 duration-500 relative w-80 h-80 rounded-xl">
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 -top-12 -left-12 absolute shadow-blue shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-44 left-14 absolute shadow-[#0D4BA] shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-left"
+
+Мирзажон, [06.08.2024 18:01]
+class="bg-transparent !opacity-40 group-hover:scale-150 top-2 right-2 absolute shadow-violet shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-12 h-12 aos-init aos-animate">
+          </div>
+          <div class="w-full h-full shadow-md shadow-secondary/20 p-3 rounded-xl flex-col gap-5 flex justify-center font-comfortaa">
+            <div class="bg-[#0DC4BA] size-16 p-3 flex items-center justify-center rounded-full">
+              <img src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/veneers_8iCngdA5M" alt="Виниры" />
+            </div>
+            <span class="font-bold text-xl italic">Виниры</span>
+            <p>Виниры для зубов — это тонкие, изготовленные на заказ...</p>
+            <a class="z-40 underline text-[#0DC4BA]" href="/services/veneers">Подробнее</a>
+          </div>
+        </div>
+        <div
+          class="cursor-pointer text-start bg-primary text-secondary shadow-md shadow-[#0DC4BA] group overflow-hidden p-5 duration-500 relative w-80 h-80 rounded-xl">
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 -top-12 -left-12 absolute shadow-blue shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-up"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-44 left-14 absolute shadow-[#0D4BA] shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-24 h-24 aos-init aos-animate">
+          </div>
+          <div data-aos="fade-left"
+            class="bg-transparent !opacity-40 group-hover:scale-150 top-2 right-2 absolute shadow-violet shadow-inner rounded-full transition-all ease-in-out group-hover:duration-1000 duration-1000 w-12 h-12 aos-init aos-animate">
+          </div>
+          <div class="w-full h-full shadow-md shadow-secondary/20 p-3 rounded-xl flex-col gap-5 flex justify-center font-comfortaa">
+            <div class="bg-[#0DC4BA] size-16 p-3 flex items-center justify-center rounded-full">
+              <img src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/veneers_8iCngdA5M" alt="Виниры" />
+            </div>
+            <span class="font-bold text-xl italic">Виниры</span>
+            <p>Виниры для зубов — это тонкие, изготовленные на заказ...</p>
+            <a class="z-40 underline text-[#0DC4BA]" href="/services/veneers">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container font-comfortaa">
+      <div class="flex flex-col-reverse xl:flex-row justify-between items-center">
+        <div class="flex flex-col gap-5 items-center text-center lg:items-start lg:text-start w-[100%] lg:w-[40%] m-7">
+          <button class="py-1 px-3 bg-[#7400B8] text-white rounded-[30px]">
+            8+ годы опыта
+          </button>
+          <h1 class="text-[40px]">Ваша улыбка – наша радость!</h1>
+          <p>
+            Smile Boutique – это стоматологическая клиника, где заботятся о
+            здоровье и красоте вашей улыбки. Мы предлагаем полный комплекс
+            стоматологических услуг, от терапии до имплантации, используя
+            новейшие технологии и материалы. Доверьтесь профессионалам Smile
+            Boutique и получите безупречный результат.
+          </p>
+          <button
+            class="px-1 z-10 py-2 bg-[#0DC4BA] rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-purple-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all duration-500 after:duration-700 transition-all duration-700 [text-shadow:3px_5px_2px_#be123c;]] w-[200px] ">
+            Подробнее о нас
+          </button>
+        </div>
+        <img width="600" src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/Linktoabout.png" alt="" class=""/>
+      </div>
+    </section>
+    <section class="container py-[50px]">
+
+
+<div class="flex flex-wrap justify-between items-center text-center mb-14">
+        <img width="200" height="100" class="lg:w-[250px]"
+          src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/company_logos/logo_ivoclar2.png" alt="" />
+        <img width="200" height="100" class="lg:w-[250px]"
+          src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/company_logos/logo_tokuyama2.png" alt="" />
+        <img width="200" height="100" class="lg:w-[250px]"
+          src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/company_logos/logo_straumann2.png" alt="" />
+        <img width="200" height="100" class="lg:w-[250px]"
+          src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/company_logos/logo_kerr2.png" alt="" />
+      </div>
+      <div class="flex flex-col xl:flex-row justify-between items-center text-center lg:text-start font-comfortaa">
+        <img width="600" src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/trust_us.png" alt="" />
+        <div class="flex flex-col items-center lg:items-start gap-5 w-[100%] lg:w-[40%]">
+          <button class="py-1 px-6 bg-[#7400B8] text-white rounded-[30px]">
+            Записаться на консультацию
+          </button>
+          <h1 class="text-[50px]">Нам можно доверять!</h1>
+          <p>
+            Помните, профилактика заболеваний полости рта – это не только
+            забота о себе, но и инвестиция в ваше будущее! Запишитесь на прием
+            в «Smile Boutique» и получите консультацию стоматолога бесплатно!
+            Мы поможем вам сохранить здоровье зубов и красоту вашей улыбки!
+          </p>
+          <button
+            class="text-xl px-0 z-10 py-2  bg-[#0DC4BA] rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-purple-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[400px]">
+            tel:+998 (99) 876-88-55
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container py-[40px]">
+      <div class="w-[1300px] border rounded-[20px] border-[#a527a5] h-[300px] flex justify-center flex-col items-center ml-[40px] hidden  2xl:flex gap-3">
+        <p class="text-cyan-400 font-comfortaa">Записаться на приём​</p>
+        <h1 class="text-[60px] text-purple-600 font-comfortaa">
+          10% СКИДКА ПРИ ЗАПИСИ ОНЛАЙН​​
+        </h1>
+        <button
+          class="text-2xl px-1 z-10 py-3 bg-[#0DC4BA] rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-purple-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[1100px] font-comfortaa">
+          записатся на консультацию
+        </button>
+      </div>
+    </section>
+    <section class="container font-comfortaa">
+      <div class="flex flex-col xl:flex-row justify-between items-center text-center lg:text-start">
+        <img width="600 " height="100" src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/why_us_2.png" alt="" />
+        <div
+          class="flex flex-col items-center lg:items-start justify-center lg:justify-normal gap-5 w-[100%] xl:w-[40%]">
+          <button class="py-1 px-6 bg-[#7400B8] text-white rounded-[30px] font-comfortaa">
+            Записаться на консультацию
+          </button>
+          <h1 class="text-[30px] lg:text-[30px] font-comfortaa">
+            Как «Smile Boutique» завоевывает доверие пациентов?
+          </h1>
+          <p>
+            Наши высококвалифицированные специалисты используют современное
+            оборудование и индивидуальный подход к каждому пациенту. Мы
+            предлагаем широкий спектр стоматологических услуг, обеспечивая
+            комфорт и безопасность в клинике. Выбирая «Smile Boutique», вы
+
+Мирзажон, [06.08.2024 18:01]
+можете быть уверены в профессиональном и заботливом отношении к
+            вашему здоровью.
+          </p>
+          <button
+            class="text-1xl px-1 z-10 py-3 bg-[#0DC4BA] rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-purple-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[200px] font-comfortaa">
+            Подробнее о нас
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container pt-[100px]">
+      <div class="flex items-center justify-center">
+        <button class="bg-purple-700 text-white py-1 px-3 rounded-[30px] font-comfortaa">
+          ОТЗОВЫ
+        </button>
+      </div>
+      <div class="flex flex-wrap justify-center py-[100px] gap-8 lg:justify-between">
+        <div class="w-[360px] h-[360px] p-[30px] border border-[purple] flex flex-col gap-5 rounded-[10px]">
+          <div class="flex flex-row text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Мы рады, что наши пациенты остаются довольны качеством
+            предоставляемых услуг и рекомендуют нас своим близким. В клинике
+            Smile Boutique мы постоянно совершенствуемся, чтобы сделать ваше
+            лечение максимально комфортным и эффективным. Присоединяйтесь к
+            числу наших довольных пациентов!
+          </p>
+          <p>
+            Мафтуна <br />
+            Ибрагимовна
+          </p>
+        </div>
+        <div class="w-[360px] h-[360px] p-[30px] border border-[purple] flex flex-col gap-5 rounded-[10px]">
+          <div class="flex flex-row text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Мы рады, что наши пациенты остаются довольны качеством
+            предоставляемых услуг и рекомендуют нас своим близким. В клинике
+            Smile Boutique мы постоянно совершенствуемся, чтобы сделать ваше
+            лечение максимально комфортным и эффективным. Присоединяйтесь к
+            числу наших довольных пациентов!
+          </p>
+          <p>
+            Мафтуна <br />
+            Ибрагимовна
+          </p>
+        </div>
+        <div class="w-[360px] h-[360px] p-[30px] border border-[purple] flex flex-col gap-5 rounded-[10px]">
+          <div class="flex flex-row text-yellow-500">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>
+            Мы рады, что наши пациенты остаются довольны качеством
+            предоставляемых услуг и рекомендуют нас своим близким. В клинике
+            Smile Boutique мы постоянно совершенствуемся, чтобы сделать ваше
+            лечение максимально комфортным и эффективным. Присоединяйтесь к
+            числу наших довольных пациентов!
+          </p>
+          <p>
+            Мафтуна <br />
+            Ибрагимовна
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="container py-[100px]">
+      <div class="flex flex-col xl:flex-row-reverse justify-between items-center text-center">
+        <img width="500" class="rounded-[10px]"
+          src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/hqdefault.png?updatedAt=1719912091465" alt="" />
+        <div class="flex flex-col items-center lg:items-start gap-5 w-[100%] lg:w-[60%] lg:text-start">
+
+
+<button class="py-1 px-6 bg-[#7400B8] text-white rounded-[30px] font-comfortaa">
+            Записаться на консультацию
+          </button>
+          <h1 class="text-[40px] font-comfortaa">Реальные истории, реальные люди!</h1>
+          <p class="font-comfortaa">
+            Помните, профилактика заболеваний полости рта – это не только
+            забота о себе, но и инвестиция в ваше будущее! Запишитесь на прием
+            в «Smile Boutique» и получите консультацию стоматолога бесплатно!
+            Мы поможем вам сохранить здоровье зубов и красоту вашей улыбки!
+          </p>
+          <button
+            class="text-1xl px-1 z-10 py-1 bg-[#0DC4BA] rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-purple-800 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[190px] font-comfortaa">
+            все видиоотзовы
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="container pb-[100px] font-comfortaa">
+      <div class="flex flex-col xl:flex-row justify-between items-center">
+        <img width="600" src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/muzaffar_aka.jpg" alt="" class="mr-[50px]"/>
+        <div class="hidden md:flex flex-col items-start">
+          <button class="bg-purple-700 text-white py-1 px-3 rounded-[30px] font-comfortaa">
+            ОТВЕТЫ НА ВАШИ ВОПРОСЫ
+          </button>
+          <h1 class="text-[50px] font-comfortaa">На вопросы отвечают врачи</h1>
+          <div class="flex flex-col justify-between gap-9">
+            <select name="" id="" class="w-[400px] md:w-[600px]  pb-[10px] text-2xl border-y-transparent  ">
+              <option value="1">Заразен ли кариес?</option>
+            </select>
+            <select name="" id="" class="w-[400px] md:w-[600px] border-b pb-[10px] text-2xl border-x-transparent border-[1px]">
+              <option value="1">Когда чистить зубы?</option>
+            </select>
+            <select name="" id="" class="w-[400px] md:w-[600px] border-b pb-[10px] text-2xl border-x-transparent border-[1px]">
+              <option value="1">Можно ли лечить зцбы под наркозом?</option>
+            </select>
+            <select name="" id="" class="w-[400px] md:w-[600px] border-b pb-[10px] text-2xl border-x-transparent border-[1px]">
+              <option value="1">
+                Как часто рекомендуется чистка <br />
+                зубов и осмотры?
+              </option>
+            </select>
+            <select name="" id="" class="w-[400px] md:w-[600px] border-b pb-[10px] text-2xl border-x-transparent border-[1px]">
+              <option value="1">У меня нет никаких симптомов?</option>
+            </select>
+            <select name="" id="" class="w-[400px] md:w-[600px] border-b pb-[10px] text-2xl border-x-transparent border-[1px]">
+              <option value="1">
+                Как часто мне придётся ходить к соматологу?
+              </option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container py-[100px]">
+      <div class="flex justify-center items-center lg:justify-between flex-col xl:flex-row gap-6">
+        <div
+          class="text-center p-[30px] w-[400px] md:w-[600px] h-[410px] md:h-[310px] border flex flex-col gap-3 items-center rounded-[20px] border-purple-700">
+          <p class="text-cyan-400 font-normal text-[18px]">
+            Записаться на приём
+          </p>
+          <h1 class="text-[50px]">
+            10% скидка при записи <br />
+            онлайн
+          </h1>
+          <button
+            class="text-1xl px-1 z-10 py-2  rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after: after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[300px]">
+            записатся на консультацию
+          </button>
+        </div>
+        <div
+
+class="text-center p-[30px] w-[400px] md:w-[600px] h-[410px] md:h-[310px] border flex flex-col gap-3 items-center rounded-[20px] border-purple-700 bg-cyan-400">
+          <p class="text-purple-700 font-normal text-[18px]">
+            Записаться на приём
+          </p>
+          <h1 class="text-[50px]">
+            Позвоните нам <br />
+            сейчас
+          </h1>
+          <button
+            class="text-1xl px-1 z-10 py-2 bg-purple-700 rounded-md text-white relative font-semibold font-sans after:-z-20 after:absolute after:h-1 after:w-1 after:bg-cyan-500 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-[2s] [text-shadow:3px_5px_2px_#be123c;]] w-[300px]">
+            записатся на консультацию
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container py-[20px]">
+    <div class="flex flex-col lg:flex-row justify-between items-center py-[20px] gap-4">
+      <ul class="flex flex-col items-center gap-8">
+        <img width="300" class="sm:w-[300px]" src="https://ik.imagekit.io/ekbcszw7tx/Smile%20Boutique/main_logo.svg"
+          alt="" />
+        <h1 class="text-[18px]">Здоровье зубов - в надежной клинике!</h1>
+      </ul>
+      <ul class="flex flex-col gap-3">
+        <li class="text-[20px] text-[gray]">О нас</li>
+        <li>о клинике</li>
+        <li>фотогалерея</li>
+        <li>врачи</li>
+        <li>цены</li>
+        <li>контакты</li>
+      </ul>
+      <ul class="flex flex-col gap-3">
+        <li class="text-[20px] text-[gray]">Услуги</li>
+        <li>Отбеливание зубов</li>
+        <li>Чистка зубов</li>
+        <li>Лечение зубов</li>
+        <li>Отбеливание зубов</li>
+        <li>Имплантация зубов</li>
+      </ul>
+
+      <ul class="flex flex-col gap-3">
+        <li class="text-[20px] text-[gray]">Контакты</li>
+        <li>Адрес: г. Ташкент, ул. Гулханий, 11</li>
+        <li>Телефон: +998-99-876-88-55</li>
+        <li>E-Mail: Info@smileboutique.uz</li>
+        <li>Режим работы: 10:00–20:00</li>
+      </ul>
+    </div>
+    <div class="hidden 2xl:flex w-[1370px] h-[1px] bg-[black]"></div>
+    <div class="flex justify-between pt-[20px] items-center">
+      <p>© 2024 Smile Boutique. Все права защищены.</p>
+      <div class="flex items-center gap-4">
+        <div class="social-button">
+          <button class="relative w-12 h-12 rounded-full group">
+           
+            <div
+           
